@@ -8,7 +8,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 setup(
     name='dremio_api_wrapper',
     packages=[
-        'dremio_wrapper',
+        'dremio',
     ],
     version='1.0.0',
     license='MIT',
